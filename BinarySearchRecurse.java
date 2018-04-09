@@ -21,5 +21,6 @@ public class BinarySearchRecurse {
         int low = 0;
         int hight = list.length - 1;
         System.out.println("index is: " + binarySearchRecurse(list, 7, low, hight));
+        System.out.println("index is: " + binarySearchRecurse(list, 100, low, hight));
     }
 }
